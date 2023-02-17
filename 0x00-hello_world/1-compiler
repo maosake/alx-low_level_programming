@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -E $CFLE >> c
+gcc -c $CFILE
