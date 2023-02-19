@@ -1,10 +1,10 @@
 #include <stdio.h>
 /*
- * main - Entry point
+ * main - size of various types on computer
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+int main(void) /* function to print size of types on the computer*/
 {
 printf("Size of a char: %d byte(s)\n", sizeof(char));
 printf("Size of a int: %d byte(s)\n", sizeof(int));
