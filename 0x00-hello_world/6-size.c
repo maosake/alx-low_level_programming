@@ -4,7 +4,7 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void) /* function to print size of types on the computer*/
+main - Entry int main(void)
 {
 printf("Size of a char: %d byte(s)\n", sizeof(char));
 printf("Size of an int: %d byte(s)\n", sizeof(int));
