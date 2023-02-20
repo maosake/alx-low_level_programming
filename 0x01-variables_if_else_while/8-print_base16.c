@@ -2,10 +2,11 @@
 #include <time.h>
 #include <stdlib.h>
 /**
- * main -  prints all the numbers of base 16 in lowercase, followed by a new line
+ * main -  prints all the numbers of base 16
  *
  *  Return: 0
- */int main(void)
+ */
+int main(void)
 {
 char ch;
 for (ch = '0'; ch <= '9'; ch++)
