@@ -2,19 +2,22 @@
 #include <time.h>
 #include <stdlib.h>
 /**
- * main- function to print
+ * main- main function to print numbers
  *
- * return: 0
+ * Return:Always 0
  */
 int main(void)
 {
-int c;
-for (c = '0'; c <= '9'; c++)
-putchar(c);
-if (c != '9')
+int n;
+for (n = 0; n < 9; n++)
+{
+putchar(n);
+if (n  != 8)
 {
 putchar(',');
 putchar(' ');
 }
+putchar('\n');
 return (0);
+}
 }
