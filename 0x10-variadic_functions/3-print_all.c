@@ -29,6 +29,8 @@ void print_all(const char * const format, ...)
 					printf("%s%f", sep, va_arg(list, double));
 					break;
 				case 's':
+					if (!str)
+						str = ("nil");
 					printf("%s%s", sep, va_arg(list, char *));
 					break;
 				default:
