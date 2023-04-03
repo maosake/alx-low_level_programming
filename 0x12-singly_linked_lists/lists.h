@@ -3,7 +3,7 @@
 /*#define const list_t;*/
 typedef struct node
 {
-	const char *str;
+	char *str;
 	size_t len;
 	struct node *link;
 } list_t;
