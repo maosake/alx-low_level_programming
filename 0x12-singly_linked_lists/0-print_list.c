@@ -3,6 +3,11 @@
 #include <string.h>
 #include "lists.h"
 
+/**
+ * print_list - prints number of nodes
+ * @h: head
+ * Return: the number of nodes
+ */
 size_t print_list(const list_t *h)
 {
 	size_t count = 0;
@@ -10,8 +15,8 @@ size_t print_list(const list_t *h)
 	if (h == NULL)
 		printf("[0] (nil)");
 	const list_t *ptr = NULL;
-	ptr = h;
 
+	ptr = h;
 	while (ptr != NULL)
 	{
 		count++;
