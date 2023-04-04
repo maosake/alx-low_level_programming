@@ -1,6 +1,7 @@
 #ifndef LISTS_H
 #define LISTS_H
-/*#define const list_t;*/
+
+#include <stddef.h>
 typedef struct node
 {
 	char *str;
