@@ -25,7 +25,7 @@ size_t print_list(const list_t *h)
 			printf("[%lu] %s", ptr->len, ptr->str);
 		}
 
-		ptr  = ptr->link;
+		ptr  = ptr->next;
 		count++;
 	}
 

@@ -7,13 +7,13 @@
  * struct list_s - singly linked list
  * @str: string
  * @len: length of string
- * @link: points to the nextnode
+ * @next: points to the nextnode
  */
 typedef struct list_s
 {
 	char *str;
 	size_t len;
-	struct list_s *link;
+	struct list_s *next;
 } list_t;
 
 int _putchar(char c);
