@@ -1,5 +1,4 @@
 # 0x13. C - More singly linked lists
-
 ## 0.print list
 a function that prints all the elements of a listint_t list.
 
@@ -19,7 +18,7 @@ a function that frees a listint_t list.
 Write a function that frees a listint_t list.
 
 ## 6. Pop
- a function that deletes the head node of a listint_t linked list, and returns the head node’s data (n).
+a function that deletes the head node of a listint_t linked list, and returns the head node’s data (n).
 
 ## 7. Get node at index
 a function that returns the nth node of a listint_t linked list.
@@ -34,7 +33,7 @@ a function that inserts a new node at a given position.
 a function that deletes the node at index index of a listint_t linked list.
 
 # Advanced tasks
-## function that reverses list
-## a function that prints a listint_t linked list.
-## a function that frees a listint_t list.
-## a function that finds the loop in a linked list.
+function that reverses list
+a function that prints a listint_t linked list.
+a function that frees a listint_t list.
+a function that finds the loop in a linked list.
